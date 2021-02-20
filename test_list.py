@@ -2,9 +2,7 @@ import unittest
 
 
 def swap_first_last_elements(list):
-        buf = list[0]
-        list[0] = list[-1]
-        list[-1] = buf
+        list[ 0 ], list[ -1 ] = list[ -1 ], list[ 0 ]
         return list
 
 
