@@ -9,7 +9,7 @@ def swap_first_last_elements(list):
 class TestListMethods(unittest.TestCase):
     def test_liubov_peleshenko_fi_94(self):
         list = [1, 2, 3, 4, 5, 6]
-        self.assertEqual(swap_first_last_elements(list),[6, 2, 3, 4, 5, 1])
+        self.assertEqual(swap_first_last_elements(list), [6, 2, 3, 4, 5, 1])
 
     def test_roman_tkalenko_fi_13(self):
         self.assertEqual(len([]), 0)
