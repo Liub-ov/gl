@@ -5,6 +5,7 @@ def swap_first_last_elements(list):
     list[0], list[-1] = list[-1], list[0]
     return list
 
+
 def rem_last_element(list):
     list.remove(list[-1])
     return list
